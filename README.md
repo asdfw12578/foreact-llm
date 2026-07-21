@@ -1,6 +1,6 @@
 ﻿# ForeAct-LLM
 
-Official implementation of Anonymous implementation for long-term action anticipation.
+implementation of Anonymous implementation for long-term action anticipation.
 <p align="center">
   <img src="assets/framework.png" width="95%" alt="ForeAct-LLM framework">
 </p>
