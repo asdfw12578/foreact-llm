@@ -39,16 +39,38 @@ Large files are not included. Please prepare LLaMA-7B weights and dataset featur
 For Assembly101, the expected layout is:
 
 ```text
-data/assembly101/
-├── annotations/coarse-annotations/
-│   ├── actions.csv
-│   ├── coarse_labels/
-│   └── coarse_splits/
-├── TSM_features/{video_id}/{view}/features.npy
-├── mapping.txt
-└── splits/
-    ├── train.csv
-    └── val.csv
+    ├── data/                      
+        ├── 50_salads/ 
+        │   ├── groundTruth/
+        │   ├── features/
+        │   ├── mapping.txt
+        │   └── splits/             
+        ├── breakfast/ 
+        │   ├── groundTruth/
+        │   ├── features/
+        │   ├── mapping.txt
+        │   └── splits/   
+        ├── assembly101/ 
+        │    ├── annotations/coarse-annotations/
+        │   ├── actions.csv
+        │   ├── coarse_labels/
+        │   └── coarse_splits/
+        ├── TSM_features/{video_id}/{view}/features.npy
+        ├── mapping.txt
+        └── splits/
+        │    ├── train.csv
+        │      └── val.csv                    
+        ├── text_feature/ 
+        │   ├── breakfast/
+        │   └── 50_salads/  
+        └── weights/ 
+            └── 7B/      
+                ├── checklist.chk
+                ├── consolidated.00.pth
+                ├── params.json
+                └── ...       
+	​
+
 ```
 
 Prepare metadata:
