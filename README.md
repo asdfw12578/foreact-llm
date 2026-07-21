@@ -1,7 +1,6 @@
 ﻿# ForeAct-LLM
 
-Official implementation of **ForeAct-LLM: Seeing the Past, Aligning the Future**, a large language model based framework for long-term action anticipation.
-
+Official implementation of Anonymous implementation for long-term action anticipation.
 <p align="center">
   <img src="assets/framework.png" width="95%" alt="ForeAct-LLM framework">
 </p>
